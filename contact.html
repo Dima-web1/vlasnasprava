@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Контакти | Радіола</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Радіола</h1>
+      <nav>
+        <ul class="flex space-x-4 text-sm md:text-base">
+          <li><a href="index.html" class="hover:text-blue-600">Головна</a></li>
+          <li><a href="catalog.html" class="hover:text-blue-600">Каталог</a></li>
+          <li><a href="about.html" class="hover:text-blue-600">Про нас</a></li>
+          <li><a href="blog.html" class="hover:text-blue-600">Блог</a></li>
+          <li><a href="contact.html" class="hover:text-blue-600">Контакти</a></li>
+          <li><a href="login.html" class="hover:text-blue-600">Кабінет</a></li>
+          <li><a href="cart.html" class="hover:text-blue-600">Кошик</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-16 max-w-2xl">
+    <h2 class="text-3xl font-bold mb-8 text-center">Зв’яжіться з нами</h2>
+    <form class="bg-white shadow-md rounded-lg p-8 space-y-6">
+      <div>
+        <label class="block mb-2 font-semibold" for="name">Ім’я</label>
+        <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded" required />
+      </div>
+      <div>
+        <label class="block mb-2 font-semibold" for="email">Email</label>
+        <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded" required />
+      </div>
+      <div>
+        <label class="block mb-2 font-semibold" for="message">Повідомлення</label>
+        <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border rounded" required></textarea>
+      </div>
+      <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">Надіслати</button>
+    </form>
+
+    <div class="mt-12 text-center">
+      <p>📍 м. Київ, вул. Спортивна, 10</p>
+      <p>📞 +38 (096) 123-45-67</p>
+      <p>📧 support@radiola.com</p>
+    </div>
+  </main>
+
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2025 Радіола. Всі права захищено.</p>
+  </footer>
+
+</body>
+</html>
